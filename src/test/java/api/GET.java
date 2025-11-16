@@ -2,8 +2,8 @@ package api;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
-import static Utils.requests.getRequest;
-import static data.Url.Base_Url;
+import static api.Utils.requests.getRequest;
+import static api.data.Url.Base_Url;
 import static org.hamcrest.Matchers.*;
 
 import org.junit.jupiter.api.BeforeAll;

@@ -3,10 +3,11 @@ package jackson_java.logics;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
+import jackson_java.models.JsonPathResult;
 
-public class logics {
+public class helpFunctions {
 
-public static void renameArrayField(JsonPathResult result,String newFieldName){
+public static void renameArrayField(JsonPathResult result, String newFieldName){
     ArrayNode arrayNode = (ArrayNode) result.parent;
     JsonNode element = arrayNode.get(result.arrayIndex);
     if (element != null && element.isObject()) {

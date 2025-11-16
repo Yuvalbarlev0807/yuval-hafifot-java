@@ -10,7 +10,6 @@
   "category": "smartphones",
   "inStock": true,
   "releaseDate": "2025-02-18",
-
   "specifications": {
     "screenSize": "6.9 inches",
     "resolution": "3200x1440",
@@ -28,7 +27,7 @@
     {
       "color": "Phantom Black",
       "storage": "512 GB",
-      "price": 1299.99,
+      "price": null,
       "sku": "SGU25-BLK-512"
     },
     {
@@ -46,7 +45,7 @@
   ],
 
   "features": [
-    "AI-Powered Camera",
+    "1",
     "120Hz AMOLED Display",
     "Water Resistant (IP68)",
     "Dual SIM Support"

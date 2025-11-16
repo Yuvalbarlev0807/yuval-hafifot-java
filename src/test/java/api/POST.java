@@ -4,10 +4,10 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
 
-import static Utils.requests.*;
-import static Utils.utilsFunctions.extractResponse;
-import static data.RequestsBody.PostRequestBody;
-import static data.Url.Base_Url;
+import static api.Utils.requests.postRequest;
+import static api.Utils.utilsFunctions.extractResponse;
+import static api.data.RequestsBody.PostRequestBody;
+import static api.data.Url.Base_Url;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.hasKey;
 

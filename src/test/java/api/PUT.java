@@ -4,9 +4,9 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import static Utils.requests.putRequest;
-import static data.RequestsBody.PutRequestBody;
-import static data.Url.Base_Url;
+import static api.Utils.requests.putRequest;
+import static api.data.RequestsBody.PutRequestBody;
+import static api.data.Url.Base_Url;
 import static org.hamcrest.Matchers.equalTo;
 
 

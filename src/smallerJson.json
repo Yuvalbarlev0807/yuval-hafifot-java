@@ -1,0 +1,27 @@
+{
+  "id": 555,
+  "title": "Smartphone Galaxy Ultra 25",
+  "price": 1299.99,
+  "inStock": true,
+
+  "specifications": {
+    "cpu": "Snapdragon 8 Gen 3",
+    "ram": "12 GB",
+    "storage": "512 GB"
+  },
+  "variants": [
+    {
+      "color": "Phantom Black",
+      "storage": "512 GB",
+      "price": null,
+      "sku": "SGU25-BLK-512"
+    },
+    {
+      "color": "Silver Mist",
+      "storage": "256 GB",
+      "price": 1199.99,
+      "sku": "SGU25-SLV-256"
+    }
+  ],
+  "tags": ["electronics", "smartphones", "android"]
+}

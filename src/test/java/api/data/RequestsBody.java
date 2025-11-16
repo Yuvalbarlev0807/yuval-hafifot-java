@@ -1,4 +1,4 @@
-package data;
+package api.data;
 
 public class RequestsBody {
     public static final String PostRequestBody ="{ \"title\": \"BMW Pencil\" }";
