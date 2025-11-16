@@ -46,7 +46,7 @@ public static void renameArrayField(JsonPathResult result, String newFieldName){
             parent = current;
             currentIndex = null;
 
-            // בדיקה אם זה שדה עם אינדקס, לדוגמה: variants[1]
+
             if (part.matches(".+\\[\\d+\\]")) {
                 String fieldName = part.substring(0, part.indexOf('['));
                 int index = Integer.parseInt(part.substring(part.indexOf('[') + 1, part.indexOf(']')));
@@ -58,7 +58,7 @@ public static void renameArrayField(JsonPathResult result, String newFieldName){
                 currentField = null;
                 currentIndex = index;
             }
-            // אחרת — שדה רגיל באובייקט
+
             else {
                 current = current.path(part);
                 currentField = part;

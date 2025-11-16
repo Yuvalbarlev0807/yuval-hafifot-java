@@ -94,8 +94,6 @@ public class actionsOverJson {
 
         JsonPathResult result = getNodeByPathDetailed(rootObject, path);
         JsonNode targetNode = result.node;
-
-        // המרה חכמה של הערך לכל סוג אפשרי
         JsonNode valueNode = mapper.valueToTree(fieldValue);
 
         if (targetNode.isArray()) {
