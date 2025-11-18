@@ -3,6 +3,7 @@ package org.example;
 import com.microsoft.playwright.*;
 
 public class PlaywrightTest {
+    // סתם דוגמה בשביל לבדוק שאפשר להריץ פליירייט
     public static void main(String[] args) {
         try (Playwright playwright = Playwright.create()) {
             Browser browser = playwright.chromium().launch(
@@ -10,7 +11,7 @@ public class PlaywrightTest {
             );
             Page page = browser.newPage();
             page.navigate("https://example.com");
-            System.out.println("✅ Page title: " + page.title());
+            System.out.println("Page title:" + page.title());
             browser.close();
         }
     }
